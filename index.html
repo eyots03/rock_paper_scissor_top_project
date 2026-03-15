@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            margin-top: 200px;
+        }
+
+        button {
+            font-size: 24px;
+            width: 195px;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        button:first-of-type {
+            background-color: lightgreen;
+            border-color: lightgreen;
+        }
+
+        button:nth-of-type(2) {
+            background-color: lightblue;
+            border-color: lightblue;
+        }
+
+        button:nth-of-type(3) {
+            background-color: lightgoldenrodyellow;
+            border-color: lightgoldenrodyellow;
+        }
+    </style>
 </head>
 <body>
-    <p>RELOAD THE PAGE TO PLAY AGAIN!</p>
-    <script src="script.js"> </script>
+    <h1>Play rock paper scissors!</h1>
+    <h2>First to reach 5 wins!</h2>
+    <h2>Choose one!!</h2>
+    <div></div>
+    <script src="./script.js"> </script>
 </body>
 </html>
